@@ -1,7 +1,7 @@
 # Usage
 
-```
+```elixir
 %> iex -S mix
 
-> PageProducer.scrape_pages(pages)
+iex> PageProducer.scrape_pages(pages)
 ```
