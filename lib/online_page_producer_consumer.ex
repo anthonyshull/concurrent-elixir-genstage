@@ -14,7 +14,7 @@ defmodule OnlinePageProducerConsumer do
     Logger.info("OnlineProducerConsumer init")
 
     subscription = [
-      {PageProducer, min_demand: 0, max_demand: 1},
+      {PageProducer, min_demand: 0, max_demand: 1}
     ]
 
     {:producer_consumer, initial_state, subscribe_to: subscription}
